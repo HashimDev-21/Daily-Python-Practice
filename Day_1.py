@@ -14,7 +14,7 @@ age=int(input("Enter your age:"))
 
 print("Here is your detailed Introduction")
 print("-" * 25)
-print("Greetings", first_name, last_name,". Your current age is", age,". You currently live in", district, state, country,".")
+print(f"Greetings {first_name} {last_name}. Your current age is {age}. You currently stay in {district}, which is located in {state}, {country}.")
 res=input("Was that correct?:")
 if res=="Y" or res=="y":
     print("Lovely! Have a good day.")
